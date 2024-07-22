@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const Accordian = ({ question, answer }) => {
   const [show, setShow] = useState(false);

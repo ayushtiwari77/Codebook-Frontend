@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Ratings = ({ ratingVal }) => {
   let ratingArray = Array(5).fill(false);
   for (let i = 0; i < ratingVal; i++) {
